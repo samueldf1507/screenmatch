@@ -8,6 +8,11 @@ public class Title {
     private int totalAvaliations;
     private int movieTotalTime;
 
+    public Title(String name, int release_year) {
+        this.name = name;
+        this.release_year = release_year;
+    }
+
     public int getTotalAvaliations() {
         return totalAvaliations;
     }
